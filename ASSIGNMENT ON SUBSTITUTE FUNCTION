@@ -1,0 +1,20 @@
+The data below contains data related to employees in an organization. Calculate the average age of all employees										
+Just before you started solving the problem, It was also brought to your attention that 2017 was mistakenly entered into the data instead of 2019										
+| YEAR     | Gender  | Age    | Replaced year| Average |
+|----------|---------|-------|---------------|---------|       
+|  2017    | male    |  25   |    2019       | 32.5    |
+|  2017    | male    |  26   |    2019       |  33     |
+|  2017    | male    |  27   |    2019       |  33.5   |
+|  2017    | male    |  28   |    2019       |   34    |                     
+|  2017    | female  |  29   |    2019       |   34.5  |           USING SUBSTITUTE FUNCTION TO REPLACED 2017 WITH 2019 FORMULA
+|  2017    | female  |  30   |    2019       |   35    |            = SUBSTITUTE(A6,2017,2020)
+|  2017    | female  |  31   |    2019       |   35.5  |             
+|  2017    | female  |  32   |    2019       |   36    |
+|  2017    | female  |  33   |    2019       |   36.5  |            FORMULAR FOR AVERAGE 
+|  2020    | male    |  34   |    2020       |    37   |              =AVERAGE(D9:D24)                        
+|  2020    | male    |  35   |    2020       |    37.5 |                           
+|  2020    | male    |  36   |    2020       |    38   |
+|  2020    | male    |  37   |    2020       |   38.5  |
+|  2020    | female  |  38   |    2020       |   39    |
+|  2020    | female  |  39   |    2020       |   39.5  |
+|  2020    | female  |  40   |    2020       |   40    |
